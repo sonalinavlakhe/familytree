@@ -1,0 +1,186 @@
+members:
+  kingshan:
+    name: "King Shan"
+    gender: "Male"
+    gen: 0
+    parents: []
+
+  queenanga:
+    name: "Queen Anga"
+    gender: "Female"
+    gen: 0
+    parents: ["King Shan"]
+
+  ish:
+    name: "Ish"
+    gender: "Male"
+    gen: 1
+    parents: [ "King Shan", "Queen Anga" ]
+
+  chit:
+    name: "Chit"
+    gender: "Male"
+    gen: 1
+    parents: [ "King Shan", "Queen Anga" ]
+
+  amba:
+    name: "Amba"
+    gender: "Female"
+    gen: 1
+    parents: [ "Chit" ]
+
+  vich:
+    name: "Vich"
+    gender: "Male"
+    gen: 1
+    parents: [ "King Shan", "Queen Anga" ]
+
+  lika:
+    name: "Lika"
+    gender: "Female"
+    gen: 1
+    parents: [ "Vich" ]
+
+  satya:
+    name: "Satya"
+    gender: "Female"
+    gen: 1
+    parents: [ "King Shan", "Queen Anga" ]
+
+  vyan:
+    name: "Vyan"
+    gender: "Male"
+    gen: 1
+    parents: [ "Satya" ]
+
+  aras:
+    name: "Aras"
+    gender: "Male"
+    gen: 1
+    parents: [ "King Shan", "Queen Anga" ]
+
+  chitra:
+    name: "Chitra"
+    gender: "Female"
+    gen: 1
+    parents: [ "Aras" ]
+
+  dritha:
+    name: "Dritha"
+    gender: "Female"
+    gen: 2
+    parents: [ "Chit", "Amba" ]
+
+  jaya:
+    name: "Jaya"
+    gender: "Male"
+    gen: 2
+    parents: [ "Dritha" ]
+
+  tritha:
+    name: "Tritha"
+    gender: "Female"
+    gen: 2
+    parents: [ "Chit", "Amba" ]
+
+  vritha:
+    name: "Vritha"
+    gender: "Male"
+    gen: 2
+    parents: [ "Chit", "Amba" ]
+
+  vila:
+    name: "Vila"
+    gender: "Female"
+    gen: 2
+    parents: [ "Vich", "Lika" ]
+
+  chika:
+    name: "Chika"
+    gender: "Female"
+    gen: 2
+    parents: [ "Vich", "Lika" ]
+
+  jnki:
+    name: "Jnki"
+    gender: "Female"
+    gen: 2
+    parents: [ "Aras", "Chitra" ]
+
+  arit:
+    name: "Arit"
+    gender: "Male"
+    gen: 2
+    parents: [ "Jnki" ]
+
+  ahit:
+    name: "Ahit"
+    gender: "Male"
+    gen: 2
+    parents: [ "Aras", "Chitra" ]
+
+  asva:
+    name: "Asva"
+    gender: "Male"
+    gen: 2
+    parents: [ "Satya", "Vyan" ]
+
+  satvy:
+    name: "Satvy"
+    gender: "Female"
+    gen: 2
+    parents: [ "Asva" ]
+
+  vyas:
+    name: "Vyas"
+    gender: "Male"
+    gen: 2
+    parents: [ "Satya", "Vyan" ]
+
+  krpi:
+    name: "Krpi"
+    gender: "Female"
+    gen: 2
+    parents: [ "Vyas" ]
+
+  atya:
+    name: "Atya"
+    gender: "Female"
+    gen: 2
+    parents: [ "Satya", "Vyan" ]
+
+  vasa:
+    name: "Vasa"
+    gender: "Male"
+    gen: 3
+    parents: [ "Asva", "Satvy" ]
+
+  kriya:
+    name: "Kriya"
+    gender: "Male"
+    gen: 2
+    parents: [ "Vyas", "Krpi" ]
+
+  krithi:
+    name: "Krithi"
+    gender: "Female"
+    gen: 2
+    parents: [ "Vyas", "Krpi" ]
+
+  yodhan:
+    name: "Yodhan"
+    gender: "Male"
+    gen: 3
+    parents: [ "Dritha", "Jaya" ]
+
+  laki:
+    name: "Laki"
+    gender: "Male"
+    gen: 3
+    parents: [ "Jnki", "Arit" ]
+
+  lavnya:
+    name: "Lavnya"
+    gender: "Female"
+    gen: 3
+    parents: [ "Jnki", "Arit" ]
